@@ -1,0 +1,43 @@
+/*Estilo de contenedor*/
+.keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.key{
+    background: white;
+    border-radius: 8px;
+    border: 2px solid #0b4ad3;
+    width: 70px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 8px rgba(0, 0 , 0, 0.1);
+    font-size: 18px;
+    transition: all 0.1s;
+}
+
+.key.active {
+  background: #ffc600;
+  border-color: #ff9800;
+}
+
+body {
+        background-image: url('https://i.pinimg.com/originals/19/34/af/1934afbf267c2334a1e7f7509d212f62.gif');  
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
